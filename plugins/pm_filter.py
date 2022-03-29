@@ -397,12 +397,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
-      buttons = [[
-            InlineKeyboardButton('CHANNEL', url='https://t.me/MOVIEMASALA2_0'),
-            InlineKeyboardButton('REQUEST GROUP', url='https://t.me/MOVIEMASALA_REQUEST')
-            ],[      
-            InlineKeyboardButton('HELP', callback_data='help'),
-            InlineKeyboardButton('ABOUT', callback_data='about')
+       buttons = [[
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/advertautofilterbot?startgroup=true')
+            ],[
+            InlineKeyboardButton('Group', url='https://t.me/moviemasala_request'),
+            InlineKeyboardButton('Channel', url='https://t.me/moviemasala2_0')
+            ],[
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

@@ -19,7 +19,7 @@ It's very easy just <a href='https://t.me/moviemasala_request'>CLICK ME</a> and 
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>  
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭ will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Advert Media Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. Advert Media Bot should have admin privillage.
@@ -68,7 +68,7 @@ It's very easy just <a href='https://t.me/moviemasala_request'>CLICK ME</a> and 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-These are the extra features of ᗩᒍᗩ᙭
+These are the extra features of Advert Media Bot
 
 <b>Commands and Usage:</b>
 ➾ /id - <code>get id of a specifed user.</code>

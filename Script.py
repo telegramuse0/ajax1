@@ -105,4 +105,5 @@ This module only works for my OᗯᑎEᖇ⚡
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
 ✮ 𝐈𝐃 ›› <code>{}</code>
 ✮ 𝐍𝐚𝐦𝐞 ›› {}
+Advert Media Bot
 """
